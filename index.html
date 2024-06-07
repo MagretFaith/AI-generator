@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css">
     <title>AI Business Ideas Generator</title>
 </head>
@@ -12,14 +13,12 @@
        <h1>AI Business Ideas Generator</h1>
     </header>
     <main>
-        <form>
-            <input type="text" placeholder="Enter the category of the business" autofocus required autocomplete="off" class="instructions"/>
+        <div class="form-container">
+        <form id="ideas-generator-form">
+            <input type="text" placeholder="Enter the category of the business" autofocus required autocomplete="off" class="instructions" id="user-instructions"/>
             <input type="Submit" class="submit-button"/>
         </form>
-        <div class="ideas">
-            The first idea will go here
-            <br/>
-            The second idea will go here
+        <div class="ideas" id="ideas"></div>
         </div>
     </main>
 <footer>
