@@ -16,7 +16,7 @@ function generateIdeas(event) {
   let instructionsInput = document.querySelector("#user-instructions");
  //Build the API URL
  let apiKey ="591dfc113fcff38f5348ob154ba487t0";
- let prompt = ` User instrctions: Generate a business ideas in the specified industry provided in the $(instructionsInput.value) and separate each idea point in its own separate <p></p> provide ideas for only the industry search for ad no other industry`;
+ let prompt = ` User instrctions: Generate a business ideas in the specified industry provided in the $(instructionsInput.value) and separate each idea point in its own separate <p></p>have an option of requesting for more ideas`;
  let context = "You are a professional business ideas generator for different business industries and love to come up with new creative ideas for one to invest in. Your mission is to generate atleast six business ideas in the specified industry input and approximate how much it will require to start each idea. Make sure to follow these user instructions.";
 
  let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;

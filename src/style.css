@@ -4,7 +4,7 @@ body{
 }
 
 a{
-    color: rgb(38, 143, 224);
+    color: rgb(25, 154, 253);
     font-weight: 700;
 }
 .container{
@@ -34,7 +34,7 @@ h1{
 
 form{
     padding: 30PX;
-    background-color:rgb(252, 249, 249);
+    background-color:aliceblue;
     box-shadow: 0px 20px 60px rgba(53, 140, 206, 0.993);
     border-radius: 10px;
     display: flex;
@@ -73,7 +73,7 @@ form{
 
 .ideas{
     font-size: 16px;
-    background-color: rgb(245, 242, 242);
+    background-color: aliceblue;
     padding: 20px;
     line-height: 2;
     border-left: 3px solid rgb(38, 143, 224);
